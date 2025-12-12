@@ -12,7 +12,7 @@ export const ProductsList = () => {
   const [show, setShow] = useState(false);
   const search = useLocation().search;
   const searchTerm = new URLSearchParams(search).get("q");
-  useTitle("Explore eBooks Collection");
+  useTitle("Explore eBook Collections");
  
 
   useEffect(() => {
